@@ -1,0 +1,18 @@
+$custom-blue-bg: #eff3f9;
+
+.custom-blue-bg {
+    background-color: $custom-blue-bg;
+}
+
+.custom-input>input[type=file] {
+    background-color: $custom-blue-bg;
+    display: hidden;
+
+}
+
+.custom-file-label {
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,55 @@
+$custom-Blue-Font: #3b82f6;
+$custom-font-grey: #98a7bb;
+$custom-navy-blue: #1e293b;
+$custom-btn-bg-blue: #bfdbfe;
+
+.new-event-btn {
+    background-color: $custom-btn-bg-blue;
+    color: $custom-Blue-Font;
+
+
+}
+
+.bigger-font {
+    font-family: 'poppins';
+    font-weight: 700;
+    color: $custom-navy-blue;
+
+}
+
+.custom-blue-font {
+    color: $custom-Blue-Font
+}
+
+.custom-font-grey {
+    color: $custom-font-grey;
+}
+
+.custom-input>input {
+    padding: 12px;
+
+    margin-right: 14px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width:776px) {
+    .custom-input>input {
+
+        padding: 10px;
+
+        margin-right: 14px;
+        border-radius: 5px;
+        width: 100%;
+
+    }
+
+}
+
+.custom-input>button {
+    padding: 12px;
+}
+
+.custom-border-radius {
+    border-radius: 0px 0px 50% 50%;
+}

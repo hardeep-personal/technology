@@ -1,0 +1,12 @@
+$custom-Blue-Font: #3b82f6;
+
+.user-img>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.custom-Blue-Font {
+    color: $custom-Blue-Font;
+}

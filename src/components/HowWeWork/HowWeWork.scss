@@ -1,0 +1,24 @@
+$custom-Blue-Font: #3b82f6;
+$custom-font-grey: #98a7bb;
+$custom-navy-blue: #1e293b;
+// $custom-btn-bg-blue: #bfdbfe;
+$custom-blue-bg: #eff3f9;
+
+.custom-blue-btn {
+    background-color: $custom-Blue-Font;
+
+}
+
+.custom-font-24 {
+    color: $custom-navy-blue;
+    font-weight: 700;
+
+}
+
+
+.custom-img-height{
+    height: 300px;
+}
+.custom-font-grey{
+    color: $custom-font-grey;
+}
