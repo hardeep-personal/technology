@@ -41,18 +41,17 @@ const Form = () => {
 
                             <input type="email" name="email" id="email" placeholder='name@example.com' className='custom-blue-bg' />
                         </div>
-                        <div className='custom-input mb-3 h-40 bg-red-100	'>
+                        <div className='custom-input mb-3 h-40 bg-red-100 rounded	'>
 
                             <textarea name="comment" placeholder='Message...' className='p-3 w-full h-full resize-none rounded custom-blue-bg ' >
                             </textarea>
                         </div>
-                        {/* need to be fixed */}
-                        <b>FIx it</b>
-                        <div className='custom-input mb-3 flex'>
+
+                        <div className='custom-input mb-3 flex custom-blue-bg rounded items-center'>
 
 
                             <input type="file" class="custom-file-input custom-blue-bg" id="customFile" name="filename" />
-                            <label class="custom-file-label self-start" for="customFile">Browse</label>
+                            <label class="custom-file-label self-center mr-2" for="customFile">Browse</label>
                         </div>
 
                         <div className=' flex justify-between '>

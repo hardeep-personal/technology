@@ -3,6 +3,10 @@ import './Header.scss'
 import Image1 from '../../Images/manWithDog.png'
 import Image2 from '../../Images/girlWithBox.png'
 import six from '../../Images/six.png'
+import { HiMail } from 'react-icons/hi';
+import { BiSolidUser } from 'react-icons/bi';
+
+
 
 const Header = () => {
     return (
@@ -26,11 +30,16 @@ const Header = () => {
                             </div>
                             <div className='custom-font-grey py-6'>We are <span className='custom-blue-font'>Monst</span>, a Creatie Design Social Marketing|</div>
                             <div className='custom-form lg:flex block justify-evenly'>
-                                <div className='custom-input ' >
-
-                                    <input type="text" name="email" id="email" placeholder='Type your e-mail' />
+                                <div className='custom-input flex  bg-white rounded' >
+                                    <span className=' self-center mx-4'>
+                                        <HiMail className='h-6 w-6' />
+                                    </span>
+                                    <input type="text" name="email" id="email" placeholder='Type your e-mail' className='' />
                                 </div>
-                                <div className='custom-input lg:my-0 my-4'>
+                                <div className=' bg-white custom-input lg:my-0 my-4 flex rounded'>
+                                    <span className=' self-center mx-4'>
+                                        <BiSolidUser className='h-6 w-6' />
+                                    </span>
 
 
                                     <input type="password" name="password" id="password" placeholder='Password' />

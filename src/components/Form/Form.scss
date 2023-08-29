@@ -10,7 +10,16 @@ $custom-blue-bg: #eff3f9;
 
 }
 
+.custom-file-input::file-selector-button {
+    display: none;
+}
+
+.custom-file-input {
+    width: 100%;
+}
+
 .custom-file-label {
+
     background-color: gray;
     color: #fff;
     border-radius: 5px;
